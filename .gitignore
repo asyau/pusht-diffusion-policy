@@ -1,0 +1,16 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+.venv*/
+.env
+.env.*
+/lira_task1/
+/data/
+/checkpoints/
+/results/
+/replotted_results/
+*.pt
+*.pth
+*.ckpt
+*.zip
+*.writing

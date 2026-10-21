@@ -6,14 +6,16 @@ A single-notebook implementation of convolutional (DP-C) and Transformer (DP-T) 
 
 This is a **reduced-budget reproduction** using keypoint observations. It does not reproduce every setting or result of the original paper.
 
-[Open the notebook](task1_pusht_submission.ipynb) · [Open in Google Colab](https://colab.research.google.com/github/asyau/pusht-diffusion-policy/blob/main/task1_pusht_submission.ipynb) · [Browse image outputs](images/)
+[Open the notebook](pusht_diffusion_policy.ipynb) · [Open in Google Colab](https://colab.research.google.com/github/asyau/pusht-diffusion-policy/blob/main/pusht_diffusion_policy.ipynb) · [Browse image outputs](images/)
 
 ## Contents
 
-- [`task1_pusht_submission.ipynb`](task1_pusht_submission.ipynb): implementation and saved outputs, including ten HTML rollout animations.
+- [`pusht_diffusion_policy.ipynb`](pusht_diffusion_policy.ipynb): implementation and saved outputs, including ten HTML rollout animations.
 - [`images/data/`](images/data/): demonstration frames, coordinate and episode distributions, keypoints, and trajectories.
 - [`images/results/`](images/results/): training diagnostics and ablation plots.
 - [`images/rollouts/`](images/rollouts/): five-frame rollout summaries for five environment seeds per architecture.
+- [`requirements.txt`](requirements.txt): Python dependencies for running the notebook locally.
+- [`LICENSE`](LICENSE): MIT license for this repository's own implementation.
 - [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md): attribution and license for adapted simulation code.
 
 The 18 PNG images are exported directly from the notebook's saved outputs. Dataset archives, model checkpoints, and separate training-history files are not included.

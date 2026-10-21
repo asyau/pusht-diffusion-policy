@@ -1,0 +1,15 @@
+# Local run dependencies for pusht_diffusion_policy.ipynb.
+# Colab already provides torch and ipython; install torch for your CUDA
+# version from https://pytorch.org when running locally.
+torch>=2.4
+numpy
+matplotlib
+ipython
+gymnasium>=1,<2
+pygame>=2.6,<3
+pymunk>=6.11,<7
+shapely>=2,<3
+opencv-python-headless>=4.10
+scikit-image>=0.25
+zarr>=2.18,<3
+numcodecs>=0.15,<0.16
